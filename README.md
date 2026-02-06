@@ -112,7 +112,7 @@ Seems very similar to `SEARCH_NGRAMS` for substring match and case insensitivity
 
 Key differences from `SEARCH_NGRAMS`
 
-1. it returns results with any search key lenght:
+It returns results with any search key lenght:
 ```
 ┌ ~/workspace/test-fuzzy-search-spanner git:(main) ✗
 └─ ./run-sql-script.sh ./sql-scripts/search-query.sql "e"
@@ -125,7 +125,7 @@ Key differences from `SEARCH_NGRAMS`
 +-------------------------------+------------+
 ```
 
-But it can't handle typos:
+...but it can't handle typos:
 ```
 ┌ ~/workspace/test-fuzzy-search-spanner git:(main) ✗
 └─ ./run-sql-script.sh ./sql-scripts/search-query.sql "dracla"
