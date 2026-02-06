@@ -110,7 +110,7 @@ Seems very similar to `SEARCH_NGRAMS` for substring match and case insensitivity
 +---------------------------------------------------+------------+
 ```
 
-Key differences from `SEARCH_NGRAMS`
+Key differences from `SEARCH_NGRAMS`:
 
 It returns results with any search key lenght:
 ```
